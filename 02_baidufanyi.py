@@ -1,6 +1,8 @@
 import requests
 import json
 
+# 借助百度翻译借口做的中英双向翻译
+
 class BaiduFanyi:
     def __init__(self, trans_str):
         self.trans_str = trans_str
